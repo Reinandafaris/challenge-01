@@ -1,0 +1,310 @@
+/* Media Queries */
+
+/* laptop */
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 922px) {
+}
+
+/* tablet */
+@media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    color: red;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 412px) {
+  /* navbar */
+  .navbar-class {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* hero */
+
+  .hero-tagline {
+    margin-top: 90px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .hero-tagline h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 54px */
+    padding-right: 20px;
+    margin-bottom: 16px;
+  }
+
+  .hero-tagline p {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 16px;
+  }
+
+  .accsent-img {
+    width: 344.216px;
+    height: 199px;
+    top: 32rem;
+  }
+
+  .accsent-img2 {
+    width: 344.216px;
+    height: 118.813px;
+    flex-shrink: 0;
+    top: 37rem;
+  }
+
+  #hero {
+    height: 84.2vh;
+  }
+
+  /* layanan */
+
+  .img-layanan {
+    width: 20rem;
+    margin-bottom: 45px;
+    margin-right: 0;
+  }
+
+  .section-services {
+    padding-top: 60px;
+  }
+
+  .services-heading h2 {
+    color: #000;
+
+    /* Heading/24/Bold */
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+  }
+
+  .services-heading p {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    margin-bottom: 16px;
+  }
+
+  p.description {
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+  }
+
+  /* why us */
+  .why-huruf {
+    text-align: center;
+  }
+
+  .card-layanan {
+    margin-bottom: 16px;
+  }
+
+  #whyus {
+    padding-bottom: 0;
+  }
+
+  /* testimonial */
+  .section-testimonial {
+    margin-top: 60px;
+    padding-top: 0;
+  }
+
+  .testimonial-heading h2 {
+    margin-bottom: 16px;
+  }
+
+  .testimonial-heading p {
+    margin-bottom: 16px;
+  }
+
+  .card-testimonial {
+    display: grid;
+    height: 372px;
+    width: 328px;
+    align-items: center;
+    border-radius: 8px;
+    background: #f1f3ff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    margin: 0;
+    align-self: center;
+    gap: 24px;
+  }
+
+  img.author-img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    display: none;
+  }
+
+  p.text-review {
+    text-align: start;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    margin-top: 24px;
+
+    /*  */
+    color: #000;
+
+    /* Body/14/Light */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 142.857% */
+    align-self: stretch;
+  }
+
+  .card-testimonial.row {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding-left: center;
+  }
+
+  .review {
+    margin: 0;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  p.author {
+    text-align: start;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    /*  */
+    color: #000;
+
+    /* Body/14/Regular */
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  img.arah-bg {
+    margin: 0;
+  }
+}
+
+/* banner */
+.kotak-banner {
+  width: 100%;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #0d28a6;
+  margin-top: 60px;
+}
+
+.kotak-banner h1 {
+  margin-left: 75px;
+  padding-top: 64px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+h1.banerz {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.kotak-banner p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  margin-top: 16px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: var #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 142.857% */
+}
+
+/* faq */
+.faq {
+  padding-top: 0px;
+  margin-top: 60px;
+}
+
+.faq-text h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.faq-text p {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* footer */
+
+.footer-class {
+  margin-top: 60px;
+}
+
+.col-1.bawah1 p {
+  margin-bottom: 16px;
+}
+
+.col-1.bawah2 {
+  margin-bottom: 16px;
+}
+
+.col-1.bawah3 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.col-1.bawah4 {
+  margin-bottom: 60px;
+}

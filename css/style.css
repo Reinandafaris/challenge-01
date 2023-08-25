@@ -7,6 +7,17 @@ body {
 
 .navbar {
   z-index: 3;
+  width: 100%;
+}
+
+.collapsing {
+  display: none;
+}
+
+.collapse.show {
+  background-color: white;
+  text-align: end;
+  height: 100vh;
 }
 
 * {
@@ -399,6 +410,7 @@ p.author {
   flex-shrink: 0;
   border-radius: 13px;
   background: #0d28a6;
+  margin-bottom: 100px;
 }
 
 .kotak-banner h1 {
@@ -415,15 +427,11 @@ p.author {
 .kotak-banner p {
   color: var(--neutral-01, #fff);
   text-align: center;
-
-  /* Body/14/Light */
   font-family: Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
   line-height: 20px; /* 142.857% */
-  padding-right: 20rem;
-  padding-left: 20rem;
   margin-bottom: 52px;
 }
 
